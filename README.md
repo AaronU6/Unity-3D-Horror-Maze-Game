@@ -1,1 +1,2 @@
-# Unity-3D-Horror-Maze-Game
+# Unity-Horror-Game
+Used basic maze generation, enemy target tracking and pathfinding

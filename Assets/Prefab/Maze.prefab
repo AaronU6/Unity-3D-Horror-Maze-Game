@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1234674247708442}
+  m_IsPrefabParent: 1
+--- !u!1 &1234674247708442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4894567828333898}
+  - component: {fileID: 114860014636577906}
+  m_Layer: 0
+  m_Name: Maze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4894567828333898
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234674247708442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114860014636577906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234674247708442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983db27709d526d40a947572c2fe5d10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mazeCellPrefab: {fileID: 114889865320535032, guid: 16f103b85c89c504ea59884059a69537,
+    type: 2}
+  mazeWallPrefab: {fileID: 114904601399472670, guid: 41cb56ef291ab94478a7ec4719478cfe,
+    type: 2}
+  boundaryNorthPrefab: {fileID: 114171532763039282, guid: 2e1ba6f4810ae5d4db64fc06678091c1,
+    type: 2}
+  boundaryEastPrefab: {fileID: 114787335878600806, guid: 2ff072213bd8a574893d73fae7db3d43,
+    type: 2}
+  boundarySouthPrefab: {fileID: 114369776961315790, guid: 13cf78d94d510cb4b956dc9c06cc950c,
+    type: 2}
+  boundaryWestPrefab: {fileID: 114170615160108502, guid: 821f4ffcad3356c449afe2de99543782,
+    type: 2}
+  enemyPrefab: {fileID: 114116702104037104, guid: 1a45cafe22e514f7fb68b3422525f775,
+    type: 2}
+  treasurePrefab: {fileID: 114096752219943434, guid: d30ef2224ae604534b85782626842387,
+    type: 2}
+  DebuggingEnemy: 0
+  DebuggingTrasure: 0
+  shiftX: 0
+  shiftY: 0
+  mazeKey: 
